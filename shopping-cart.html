@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartSync購物車</title>
+    <script type="module" crossorigin src="/AAPD/assets/main-a9678b20.js"></script>
+    <link rel="stylesheet" href="/AAPD/assets/main-b149c58f.css">
+  </head>
+  <body>
+    <header class="header">
+    <nav class="navbar navbar-expand-lg p-0">
+        <div class="header-container">
+            <div class="d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-start justify-content-lg-between w-100 pb-4">
+                <div class="d-flex align-items-lg-center w-100 d-lg-none">
+                    <button class="navbar-toggler fs-base border-0 rounded-0 p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span><i class="ph ph-list text-white fs-5"></i></span>
+                    </button>
+                    <div class="mx-auto d-block d-lg-none py-2">
+                      <a class="navbar-brand text-white d-flex align-items-center" href="index.html"><i class="ph ph-waves fs-5 me-3"></i><p class="fw-bold fs-7">SmartSync</p></a>
+                    </div>
+                    <div class="d-block d-lg-none py-2">
+                        <a type="button" class="position-relative text-white me-3">
+                            <i class="ph ph-shopping-cart-simple align-bottom fs-5"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger ps-1" style="font-size: 8px;" >1</span>
+                        </a>
+                        <a href="#" class="text-white"><i class="ph ph-user fs-5 align-bottom"></i></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse fs-base w-100 w-lg-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown mx-auto">
+                        <a
+                          class="nav-link dropdown-toggle py-3 px-6 text-white fw-bold"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                        門市資訊<i class="ph ph-caret-down fs-5 align-bottom ms-2 d-none d-lg-inline-block"></i>
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                          <li><a class="dropdown-item" href="#">台北門市</a></li>
+                          <li><a class="dropdown-item" href="#">台中門市</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">高雄門市</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown mx-auto">
+                        <a
+                          class="nav-link dropdown-toggle py-3 px-6 text-white fw-bold"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                        資訊中心<i class="ph ph-caret-down fs-5 align-bottom ms-2 d-none d-lg-inline-block"></i>
+                        </a>
+                        <ul class="dropdown-menu rounded-0">
+                          <li><a class="dropdown-item" href="#">最新資訊</a></li>
+                          <li><a class="dropdown-item" href="#">熱門資訊</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">其他資訊</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item mx-auto">
+                        <a class="nav-link py-3 px-6 text-white fw-bold" href="#">服務指南</a>
+                      </li>
+                    </ul>
+                  </div>
+                <div class="mx-auto d-none d-lg-block">
+                    <a class="navbar-brand text-white d-flex align-items-center" href="index.html"><i class="ph ph-waves fs-3 me-3"></i><p class="fs-5 fw-bold">SmartSync</p></a>
+                </div>
+                <div class="d-none d-lg-block w-25 text-end">
+                    <button class="btn btn-text fs-base py-3 px-11 rounded-5"><i class="ph ph-user fs-5 align-bottom pe-2"></i>登入/註冊</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!-- progress section-1 -->
+    <section class="py-6 py-lg-8">
+      <div class="container">
+        <!-- return -->
+        <a class="text-primary-9" href="product-info.html">
+          <i class="ph ph-arrow-left fs-5 align-bottom me-3"></i
+          ><span>返回</span>
+        </a>
+        <!-- progress -->
+        <section class="progress-bg mt-6 mt-lg-8 d-none d-lg-block">
+          <div class="position-relative m-4 mx-auto progress-bar-width">
+            <div class="progress bg-gray-4" style="height: 1px">
+              <div
+                class="progress-bar bg-primary-6"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <!-- step-1 -->
+            <section
+              class="position-absolute top-0 start-0 translate-middle step-item"
+            >
+              <p class="fs-sm lh-1">1</p>
+            </section>
+            <div
+              class="position-absolute mt-2 text-center"
+              style="top: 14px; left: -20px"
+            >
+              <p class="fs-sm fw-bolder text-primary-6">Step 1</p>
+              <p class="fs-sm text-primary-6">首頁</p>
+            </div>
+            <!-- step-2 -->
+            <section
+              style="left: 25%"
+              class="position-absolute top-0 translate-middle step-item"
+            >
+              <p class="fs-sm lh-1">2</p>
+            </section>
+            <div
+              class="position-absolute translate-middle-x mt-2 text-center"
+              style="top: 14px; left: 25%"
+            >
+              <p class="fs-sm fw-bolder text-primary-6">Step 2</p>
+              <p class="fs-sm text-primary-6">商品資訊</p>
+            </div>
+            <!-- step-3 -->
+            <section
+              class="position-absolute top-0 start-50 translate-middle step-item-active"
+            >
+              <p class="fs-sm lh-1">3</p>
+            </section>
+            <div
+              class="position-absolute translate-middle-x mt-2 text-center"
+              style="top: 14px; left: 50%"
+            >
+              <p class="fs-sm fw-bolder text-primary-6">Step 3</p>
+              <p class="fs-sm text-primary-6">加入購物車</p>
+            </div>
+            <!-- step-4 -->
+            <section
+              style="left: 75%"
+              class="position-absolute top-0 translate-middle step-item-disabled"
+            >
+              <p class="fs-sm lh-1">4</p>
+            </section>
+            <div
+              class="position-absolute translate-middle-x mt-2 text-center"
+              style="top: 14px; left: 75%"
+            >
+              <p class="fs-sm fw-bolder text-gray-4">Step 4</p>
+              <p class="fs-sm text-gray-4">確認訂單</p>
+            </div>
+            <!-- step-5 -->
+            <section
+              class="position-absolute top-0 start-100 translate-middle step-item-disabled"
+            >
+              <p class="fs-sm lh-1">5</p>
+            </section>
+            <div
+              class="position-absolute translate-middle-x mt-2 text-center"
+              style="top: 14px; right: -55px"
+            >
+              <p class="fs-sm fw-bolder text-gray-4">Step 5</p>
+              <p class="fs-sm text-gray-4">完成訂單</p>
+            </div>
+          </div>
+        </section>
+        <!-- mobile-progress -->
+        <section class="progress-mobile-bg mt-6 d-block d-lg-none mx-auto">
+          <ul class="list-unstyled">
+            <!-- step-1 -->
+            <li
+              class="border-start border-primary-6 position-relative"
+              style="height: 68px"
+            >
+              <section class="position-absolute" style="top: 0; left: -12px">
+                <span class="step-item">1</span>
+              </section>
+              <section class="position-absolute" style="top: 0; left: 24px">
+                <p class="fw-bold text-primary-6 text-nowrap">Step 1</p>
+                <p class="fs-sm text-primary-6">首頁</p>
+              </section>
+            </li>
+            <!-- step-2 -->
+            <li
+              class="border-start border-primary-6 position-relative"
+              style="height: 68px"
+            >
+              <section class="position-absolute" style="top: 0; left: -12px">
+                <span class="step-item">2</span>
+              </section>
+              <section class="position-absolute" style="top: 0; left: 24px">
+                <p class="fw-bold text-primary-6 text-nowrap">Step 2</p>
+                <p class="fs-sm text-primary-6 text-nowrap">商品資訊</p>
+              </section>
+            </li>
+            <!-- step-3 -->
+            <li
+              class="border-start border-gray-4 position-relative"
+              style="height: 68px"
+            >
+              <section class="position-absolute" style="top: 0; left: -12px">
+                <span class="step-item-active">3</span>
+              </section>
+              <section class="position-absolute" style="top: 0; left: 24px">
+                <p class="fw-bold text-primary-6 text-nowrap">Step 3</p>
+                <p class="fs-sm text-primary-6 text-nowrap">加入購物車</p>
+              </section>
+            </li>
+            <!-- step-4 -->
+            <li
+              class="border-start border-gray-4 position-relative"
+              style="height: 68px"
+            >
+              <section class="position-absolute" style="top: 0; left: -12px">
+                <span class="step-item-disabled">4</span>
+              </section>
+              <section class="position-absolute" style="top: 0; left: 24px">
+                <p class="fw-bold text-gray-4 text-nowrap">Step 4</p>
+                <p class="fs-sm text-gray-4 text-nowrap">確認訂單</p>
+              </section>
+            </li>
+            <!-- step-5 -->
+            <li class="position-relative" style="height: 68px">
+              <section class="position-absolute" style="top: 0; left: -12px">
+                <span class="step-item-disabled">5</span>
+              </section>
+              <section class="position-absolute" style="top: 0; left: 24px">
+                <p class="fw-bold text-gray-4 text-nowrap">Step 5</p>
+                <p class="fs-sm text-gray-4 text-nowrap">完成訂單</p>
+              </section>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <!-- shopping-cart section-2 -->
+    <section class="pb-6 pb-lg-8">
+      <div class="container">
+        <h3 class="fs-5 text-primary-9 fw-bolder mb-6 mb-lg-8">
+          <i class="ph ph-shopping-cart-simple fs-5 me-2"></i>購物車
+        </h3>
+        <div class="row">
+          <div class="col-lg-8">
+            <section class="checkAllWrap py-4 ps-4 border-bottom border-gray-4">
+              <div class="formGroup">
+                <input type="checkbox" class="checkAll" />
+                <label class="ms-6">選擇全部</label>
+              </div>
+            </section>
+            <!-- 1 -->
+            <section class="py-4 ps-4 border-bottom border-gray-4">
+              <div
+                class="d-flex justify-content-between align-items-start align-items-lg-center flex-column flex-md-row"
+              >
+                <!-- checkbox & img & product-name -->
+                <div class="d-flex mb-2 mb-lg-0">
+                  <input type="checkbox" name="sort" value="shopping-cart-1" />
+                  <ul
+                    class="list-unstyled d-flex align-items-center ms-6 gap-3 gap-lg-6 mb-0"
+                  >
+                    <li>
+                      <img
+                        class="object-fit-cover rounded-4"
+                        style="width: 80px; height: 80px"
+                        src="/AAPD/assets/產品圖-今日優惠-智能窗簾-76461117.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <label for="">
+                        <h5 class="fs-7 fw-bolder text-gray-9">
+                          EcoSense光控智能窗簾
+                        </h5>
+                      </label>
+                      <p class="text-gray-5">米白，標準</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- input-number & price & icon -->
+                <ul
+                  class="list-unstyled d-flex flex-column flex-xl-row gap-2 gap-lg-6 mt-2 mt-lg-0 mb-0 ms-9 ms-lg-0"
+                >
+                  <li class="shopping-cart-number-circle">
+                    <div class="d-flex align-items-center gap-4">
+                      <!-- minus-button -->
+                      <button class="input-number">
+                        <i class="ph-bold ph-minus fs-xs"></i></button
+                      ><span class="fs-7 text-gray-9">1</span>
+                      <!-- plus-button -->
+                      <button class="input-number">
+                        <i class="ph-bold ph-plus fs-xs"></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="fs-7 text-gray-9 fw-bolder">$4,900</li>
+                  <li class="d-flex gap-1 ms-xl-2">
+                    <a
+                      class="d-flex align-items-center py-1 pe-2 text-nowrap text-gray-9"
+                      href="#"
+                    >
+                      <i class="ph ph-heart fs-base me-2"></i
+                      ><span class="fs-sm">加入最愛</span>
+                    </a>
+                    <a
+                      class="d-flex align-items-center py-1 px-2 text-nowrap text-gray-9"
+                      href="#"
+                    >
+                      <i class="ph ph-trash-simple fs-base me-2"></i
+                      ><span class="fs-sm">移除</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <!-- 2 -->
+            <section class="py-4 ps-4 border-bottom border-gray-4">
+              <div
+                class="d-flex justify-content-between align-items-start align-items-lg-center flex-column flex-md-row"
+              >
+                <!-- checkbox & img & product-name -->
+                <div class="d-flex mb-2 mb-lg-0">
+                  <input type="checkbox" name="sort" value="shopping-cart-2" />
+                  <ul
+                    class="list-unstyled d-flex align-items-center ms-6 gap-3 gap-lg-6 mb-0"
+                  >
+                    <li>
+                      <img
+                        class="object-fit-cover rounded-4"
+                        style="width: 80px; height: 80px"
+                        src="/AAPD/assets/購物車-語音助理-acaea9e1.png"
+                        alt=""
+                      />
+                    </li>
+                    <li>
+                      <label for="">
+                        <h5 class="fs-7 fw-bolder text-gray-9">
+                          EcoSense光控智能窗簾
+                        </h5>
+                      </label>
+                      <p class="text-gray-5">米白，標準</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- input-number & price & icon -->
+                <ul
+                  class="list-unstyled d-flex flex-column flex-xl-row gap-2 gap-lg-6 mt-2 mt-lg-0 mb-0 ms-9 ms-lg-0"
+                >
+                  <li class="shopping-cart-number-circle">
+                    <div class="d-flex align-items-center gap-4">
+                      <!-- minus-button -->
+                      <button class="input-number">
+                        <i class="ph-bold ph-minus fs-xs"></i></button
+                      ><span class="fs-7 text-gray-9">1</span>
+                      <!-- plus-button -->
+                      <button class="input-number">
+                        <i class="ph-bold ph-plus fs-xs"></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="fs-7 text-gray-9 fw-bolder">$9,900</li>
+                  <li class="d-flex gap-1 ms-xl-2">
+                    <a
+                      class="d-flex align-items-center py-1 pe-2 text-nowrap text-gray-9"
+                      href="#"
+                    >
+                      <i class="ph ph-heart fs-base me-2"></i
+                      ><span class="fs-sm">加入最愛</span>
+                    </a>
+                    <a
+                      class="d-flex align-items-center py-1 px-2 text-nowrap text-gray-9"
+                      href="#"
+                    >
+                      <i class="ph ph-trash-simple fs-base me-2"></i
+                      ><span class="fs-sm">移除</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="col-lg-4">
+            <!-- 訂單總覽 -->
+            <section
+              class="pt-6 pb-10 pb-lg-8 px-6 bg-secondary-1 rounded-5 mt-12 mt-lg-0"
+            >
+              <ul class="list-unstyled mb-0">
+                <li class="mb-6 mb-4">
+                  <h3 class="d-flex align-items-center fs-6 text-primary-9">
+                    <i class="ph ph-clipboard-text fs-5 me-2"></i>訂單總覽
+                  </h3>
+                </li>
+                <li class="d-flex justify-content-between mb-4">
+                  <span class="text-gray-5">商品金額</span
+                  ><span class="text-gray-9 fw-bold">$14,800</span>
+                </li>
+                <li class="d-flex justify-content-between mb-4">
+                  <span class="text-gray-5">折扣</span
+                  ><span class="text-red-6 fw-bold">$-299</span>
+                </li>
+                <li class="d-flex justify-content-between mb-4">
+                  <span class="text-gray-5">運費</span
+                  ><span class="text-gray-9 fw-bold">$99</span>
+                </li>
+                <li
+                  class="d-flex justify-content-between pb-2 border-bottom border-secondary-4"
+                >
+                  <span class="text-gray-5">稅</span
+                  ><span class="text-gray-9 fw-bold">$799</span>
+                </li>
+                <li class="d-flex justify-content-between mt-2 mb-6">
+                  <span class="text-gray-5">總金額</span
+                  ><span class="text-gray-9 fw-bold">$14,402</span>
+                </li>
+                <li class="mb-4">
+                  <a
+                    class="btn btn-primary py-2 py-lg-3 rounded-5 w-100"
+                    href="order-confirmation.html"
+                    >下一步</a
+                  >
+                </li>
+                <li>
+                  <span class="text-gray-9 me-1">或</span
+                  ><a class="text-gray-6" href="index.html"
+                    ><span class="text-decoration-underline">繼續購物</span
+                    ><i class="ph ph-arrow-right fs-base ms-2"></i
+                  ></a>
+                </li>
+              </ul>
+            </section>
+            <!-- 優惠券 -->
+            <section class="p-6 bg-secondary-1 rounded-5 mt-12 mt-lg-4">
+              <h3 class="d-flex align-items-center mb-4">
+                <i class="ph ph-ticket fs-5 text-primary-9 me-2"></i
+                ><span class="fs-6 fw-bolder text-primary-9">使用優惠券</span>
+              </h3>
+              <div class="d-flex flex-xxl-nowrap flex-column flex-xl-row">
+                <span class="me-0 me-xl-3 mb-3 mb-xl-0">
+                  <input
+                    type="text"
+                    class="py-2 py-lg-3 ps-4 pe-3 rounded-5 discount-w"
+                    placeholder="輸入優惠卷或折扣代碼"
+                  />
+                </span>
+                <span>
+                  <a
+                    class="btn btn-primary rounded-5 py-2 py-lg-3 text-nowrap discount-btn-w"
+                    href="#"
+                    >立即使用</a
+                  >
+                </span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 猜您喜歡 section-3 -->
+    <section>
+      <div class="container">
+        <div class="py-6 py-lg-8 border-top border-gray-4">
+          <div class="d-flex justify-content-between align-items-center mb-6 mb-lg-8">
+  <h3 class="fs-5 fw-bolder d-flex align-items-center">
+    <i class="ph ph-waves me-2"></i>猜您喜歡
+  </h3>
+  <div class="d-flex justify-content-between">
+    <div class="like-swiper-button-prev me-2 me-lg-4">
+      <i class="ph ph-arrow-left"></i>
+    </div>
+    <div class="like-swiper-button-next">
+      <i class="ph ph-arrow-right"></i>
+    </div>
+  </div>
+</div>
+<div class="swiper likeSwiper">
+  <div class="swiper-wrapper">
+    <!-- 1 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾-76461117.png"
+          alt="智能窗簾"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">EcoSense 光控智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$4,900</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+    <!-- 2 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾3-b54f26df.png"
+          alt="智能窗簾3"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">SmartShade Elite 智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$2,290</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+    <!-- 3 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾4-a95c93e0.png"
+          alt="智能窗簾"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">LuxSync 智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$5,490</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+    <!-- 4 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾-76461117.png"
+          alt="智能窗簾"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">EcoSense 光控智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$4,900</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+    <!-- 5 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾3-b54f26df.png"
+          alt="智能窗簾3"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">SmartShade Elite 智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$2,290</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+    <!-- 6 -->
+    <div class="swiper-slide">
+      <a class="card bg-white rounded-5 border-0" href="#">
+        <img
+          class="rounded-5 object-fit-cover"
+          style="height: 247px"
+          src="/AAPD/assets/產品圖-今日優惠-智能窗簾4-a95c93e0.png"
+          alt="智能窗簾"
+        />
+        <div class="card-body p-3">
+          <!-- discount -->
+          <section class="d-flex">
+            <p
+              class="d-flex align-items-center bg-primary-1 py-1 px-3 rounded-5 text-primary-9 w-auto"
+            >
+              <i class="ph-bold ph-ticket fs-sm fs-lg-base me-1"></i
+              ><span class="fs-xs fs-lg-sm fw-medium">九折優惠</span>
+            </p>
+          </section>
+          <h6 class="fs-7 fs-lg-6 fw-bolder">LuxSync 智能窗簾</h6>
+          <section class="d-flex mt-1 mb-4">
+            <span class="fs-5 fs-lg-3 fw-bolder me-4">$5,490</span
+            ><!-- star & comments -->
+            <ul
+              class="mt-2 mt-lg-3 d-flex align-items-center list-unstyled gap-1 ps-4 border-start border-gray-7"
+            >
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph-fill ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>
+                <i class="ph ph-star text-yellow-3 fs-base"></i>
+              </li>
+              <li>•</li>
+              <li class="text-gray-5">10 則評論</li>
+            </ul>
+          </section>
+          <section class="d-flex">
+            <!-- add-to-like -->
+            <button class="heart-btn me-3" href="#">
+              <i class="ph ph-heart fs-5"></i>
+            </button>
+            <button class="btn btn-primary py-2 fw-medium w-100">
+              加入購物車
+            </button>
+          </section>
+        </div></a
+      >
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-secondary-9">
+    <div class="container">
+        <div class="d-none d-lg-flex justify-content-between w-100 py-20 border-1 border-bottom border-white">
+            <div>
+                <a class="text-white d-flex align-items-center mb-3" href="index.html"><i class="ph ph-waves fs-5 me-3"></i><p class="fs-5 fw-bold">SmartSync</p></a>
+                <h1 class="fs-7 mb-3 text-white">加入我們的時事通訊，了解最新的功能和版本。</h1>
+                <div class="d-flex mb-3">
+                    <input type="text" class="py-2 ps-4 pe-3 me-4 rounded-5 text-gray-6" style="width: 366px;" placeholder="Enter your email">
+                    <button class="btn btn-primary py-2 px-5 rounded-5 ">訂閱</button>
+                </div>
+                <p class="text-white fs-sm">訂閱即表示您同意我們的 <a href="#" class="text-white a-td">隱私權政策</a> 並同意接收我們公司的更新。</p>
+            </div>
+            <div class="d-flex">
+                <ul class="w-213 list-unstyled me-4">
+                    <h2 class="fs-base fw-bold mb-4 text-white">關於SmartSync</h2>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">品牌故事</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">加入我們</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">最新消息</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">常見問題</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">服務條款</a></li>
+                </ul>
+                <ul class="w-213 list-unstyled me-4">
+                    <h2 class="fs-base fw-bold mb-4 text-white">購物須知</h2>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">購物流程</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">運送服務</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">付款服務</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">退換貨服務</a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm">禮品卡&購物金</a></li>
+                </ul>
+                <ul class="w-213 list-unstyled">
+                    <h2 class="fs-base fw-bold mb-4 text-white">Follow Us</h2>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm"><i class="ph-fill ph-facebook-logo fs-5 pe-3"></i><span class="align-top">Facebook</span></a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm"><i class="ph ph-instagram-logo fs-5 pe-3"></i><span class="align-top">Instagram</span></a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm"><i class="ph ph-x-logo fs-5 pe-3"></i><span class="align-top">Twitter</span></a></li>
+                    <li><a href="#" class="text-white fw-normal py-2 d-inline-block fs-sm"><i class="ph-fill ph-linkedin-logo fs-5 pe-3"></i><span class="align-top">LinkedIn</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between pt-8 pb-8 pb-lg-20">
+            <div class="">
+                <a class="text-white d-flex d-lg-none align-items-center mb-4" href="index.html"><i class="ph ph-waves fs-5 me-3"></i><p class="fs-5 fw-bold">SmartSync</p></a>
+                <p class="text-gray-4 text-lg-white fs-lg-sm mb-4 mb-lg-0">© 2024 SmartSync. All rights reserved.</p>
+            </div>
+            <div>
+                <ul class="list-unstyled d-flex fs-lg-xs mb-4">
+                    <li><a href="#" class="a-td text-white">隱私權保護</a></li>
+                    <li><a href="#" class="a-td text-white mx-4 mx-lg-6">服務條款</a></li>
+                    <li><a href="#" class="a-td text-white">Cookies Settings</a></li>
+                </ul>
+                <p class="text-gray-4 d-block d-lg-none">If you are using a screen reader and are having problems using this website, please call (+123) 456-7890 for assistance.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+  </body>
+</html>
