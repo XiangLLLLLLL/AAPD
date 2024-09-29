@@ -1,25 +1,17 @@
 body {
-   font-family: "Inter";
-  }
-a{
+  font-family: "Inter";
+}
+a {
   font-weight: 500;
   text-decoration: none;
 }
 .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }
-  
-  .icon-fill {
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 24
-  }
-.link-gray-9:hover{
-  color:$primary-600 !important;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.icon-fill {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+.link-gray-9:hover {
+  color: $primary-600 !important;
 }

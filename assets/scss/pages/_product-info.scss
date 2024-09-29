@@ -12,21 +12,19 @@
 }
 
 // form
-.product-color {
-  .btn-hover {
-    font-size: 16px;
-    border: 1px solid;
-    &:hover {
-      color: $primary-400;
-      border: 1px solid $primary-400;
-      box-shadow: 0 0 0 1px $primary-400;
-    }
-  }
-  input:checked + label {
-    font-weight: 600;
-    pointer-events: none; // 阻止 hover 效果產生
+.btn-hover {
+  font-size: 16px;
+  border: 1px solid;
+  &:hover {
+    border: 1px solid $primary-400;
+    box-shadow: 0 0 0 1px $primary-400;
   }
 }
+input:checked + label {
+  font-weight: 600;
+  pointer-events: none; // 阻止 hover 效果產生
+}
+
 // hover的border變粗效果，防止跳動產生，參考資料：https://www.clloz.com/programming/front-end/css/2019/05/27/hover-border/
 
 .size-select {
