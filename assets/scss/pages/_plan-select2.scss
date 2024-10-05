@@ -42,3 +42,7 @@
     }
 }
 
+input:checked + label {
+    font-weight: 600;
+    pointer-events:all !important;
+}
